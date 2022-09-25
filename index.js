@@ -1,11 +1,11 @@
-var randomNumber1 = Math.floor(Math.random()*7);
+var randomNumber1 = Math.floor(Math.random()*6)+1;
 var randomDiceImage = "dice"+randomNumber1+".png";
-var ImagesSource= "images/"+randomDiceImage;
+var ImagesSource= randomDiceImage;
 var image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src",ImagesSource);
 var randomNumber2 = Math.floor(Math.random()*7);
 var randomDiceImage1 = "dice"+randomNumber2+".png";
-var ImagesSource1 = "images/"+randomDiceImage1;
+var ImagesSource1 = randomDiceImage1;
 var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src",ImagesSource1);
 
